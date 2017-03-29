@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QValidator>
 #include <QRegExp>
+#include "numbertostringconvertor.h"
 namespace Ui {
   class MainWindow;
 }
@@ -20,6 +21,7 @@ private slots:
   void on_pushButton_clicked();
 
 private:
+  NumberToStringConvertor n;
   Ui::MainWindow *ui;
 };
 
